@@ -130,7 +130,7 @@ export class Flags {
    */
   set(flags: string, data: { [key: string]: unknown }, expr: string) {
     const list = expr.split(" ");
-    const flagSet = new Set(flags.split(" "));
+    const flagSet = new Set(flags?.split(" ") || []);
 
     list.forEach((item) => {
       const flag = this.exists(item);
