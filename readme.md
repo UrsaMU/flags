@@ -20,9 +20,6 @@ directly into your Deno project:
 import { Flags } from "https://raw.githubusercontent.com/UrsaMU/flags/main/mod.ts";
 ```
 
-Replace `'path/to/flags.ts'` with the actual path to the `flags.ts` file in your
-project.
-
 ## Usage
 
 ### Creating a Flags Instance
