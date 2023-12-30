@@ -61,7 +61,7 @@ export class Flags {
    * @param flags The flag list to check against
    */
   lvl(flags: string) {
-    const list = flags?.split(" ");
+    const list = flags?.split(" ") || [];
     return list.reduce((acc = 0, cur: string) => {
       const flag = this.exists(cur);
       return acc < (flag?.lvl || 0) ? flag.lvl : acc;
