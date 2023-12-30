@@ -17,7 +17,7 @@ Since this module is designed for Deno, no package manager is needed. Import it
 directly into your Deno project:
 
 ```typescript
-import { Flags } from "path/to/flags.ts";
+import { Flags } from "[path/to/flags.ts](https://raw.githubusercontent.com/UrsaMU/flags/main/mod.ts)";
 ```
 
 Replace `'path/to/flags.ts'` with the actual path to the `flags.ts` file in your
